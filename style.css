@@ -10,7 +10,7 @@ section {
   position: relative;
   min-height: 100vh;
   width: 100%;
-  background: #121321;
+  background: #000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,7 +24,7 @@ section::before {
   width: 240px;
   border-radius: 50%;
   transform: translate(-150px, -100px);
-  background: linear-gradient(90deg, #9c27b0, #f3f5f5);
+  background: linear-gradient(90deg, #012324, #aff9f9);
 }
 section::after {
   content: "";
@@ -33,7 +33,7 @@ section::after {
   width: 240px;
   border-radius: 50%;
   transform: translate(150px, 100px);
-  background: linear-gradient(90deg, #9c27b0, #f3f5f5);
+  background: linear-gradient(90deg,#aff9f9, #012324);
 }
 .container {
   position: relative;
